@@ -1,0 +1,12 @@
+.btn-primary {
+    background-color: var(--white-color);
+    padding: 10px 24px;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 5px;
+    color: var(--black-color);
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
