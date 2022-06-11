@@ -94,15 +94,16 @@ a {
 }
 
 .left-content-wrapper {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     height: 500px;
     padding: 25px;
 }
 
-.right-content-wrapper {
-    border: 2px solid blue;
+.right-content-wrapper img {
+    max-width: 100%;
+    max-height: inherit;
 }
 
 
