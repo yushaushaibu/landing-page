@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -30,7 +30,7 @@
 
 .navbar-wrapper {
     min-height: 70px;
-    font-family: nationale,nationale-regular,helvetica,arial,sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@ a {
     /* clear: both; */
     background-color: orange;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     width: 100%;
@@ -95,13 +95,14 @@ a {
 
 .left-content-wrapper {
     border: 2px solid red;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
     height: 500px;
-    padding: 2rem;
+    padding: 25px;
 }
+
 .right-content-wrapper {
     border: 2px solid blue;
-    width: 50%;
 }
 
 
