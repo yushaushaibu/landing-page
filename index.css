@@ -121,6 +121,37 @@ a {
     background-color: #f3f3f3;
 }
 
+/* MAIN */
+/* top section */
+.section-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.information-header-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+
+}
+
+.cardlist {
+    border: red 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9px;
+}
+
+.card {
+    padding: 16px;
+}
+
 
 
 
