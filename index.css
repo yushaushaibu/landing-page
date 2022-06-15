@@ -160,6 +160,15 @@ a {
     min-height: 900px;
 }
 
+.parallax-bottom-title {
+    color: var(--white-color);
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 135px;
+}
+
 .cardlist img {
     width: 100%;
 }
@@ -180,7 +189,6 @@ a {
     opacity: 1;
     box-shadow: rgba(248, 120, 52, 0.998) 0px 5px 15px;
     transform:scale(1.1);
-
 }
 
 .card-subtitle {
@@ -191,6 +199,9 @@ a {
     color: var(--black-color);
 }
 
+.card-link:hover {
+    color: #e43a15;
+}
 
 
 /* Mobile */
