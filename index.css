@@ -171,13 +171,25 @@ a {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: var(--white-color);
     font-family: Arial, Helvetica, sans-serif;
-    /* opacity: .8; */
+    opacity: .9;
+    transition: all 1s;
+    cursor: pointer;
 }
 
-.card .p {
-    margin-bottom: 200px;
+.card:hover {
+    opacity: 1;
+    box-shadow: rgba(248, 120, 52, 0.998) 0px 5px 15px;
+    transform:scale(1.1);
+
 }
 
+.card-subtitle {
+    margin: 12px 0;
+}
+
+.card-link {
+    color: var(--black-color);
+}
 
 
 
