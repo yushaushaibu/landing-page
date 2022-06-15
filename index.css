@@ -156,7 +156,7 @@ a {
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     min-height: 900px;
 }
 
@@ -183,6 +183,7 @@ a {
     opacity: .9;
     transition: all 1s;
     cursor: pointer;
+    height: 500px;
 }
 
 .card:hover {
@@ -272,6 +273,24 @@ a {
 
     .right-content-wrapper img {
         padding: 25px;
+    }
+
+    .cardlist {
+        flex-direction: column;
+    }
+
+    .parallax {
+        height: 2100px;
+    }
+
+    .card {
+        padding: 25px 100;
+        opacity: 1;
+        height: 800px;
+    }
+
+    .parallax-bottom-title {
+        top: 1415px;
     }
 }
 
