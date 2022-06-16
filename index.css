@@ -6,10 +6,15 @@
     margin: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 :root {
     --white-color: #ffffff;
     --black-color: #000000;
     --grey-color: #fafafa;
+    --light-blue: #2962ff;
 }
 
 /* HEADER */
@@ -125,20 +130,11 @@ a {
 /* MAIN */
 /* top section */
 
-.section-wrapper {
-    max-width: 1200px;
-    width: 100%;
-    background-color: var(--grey-color);
-    padding: 1rem 0;
-    margin: 0 auto;
-}
-
 .information-header-text {
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 16px 25px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     color: var(--white-color);
 }
@@ -148,7 +144,6 @@ a {
     justify-content: space-between;
     padding: 0 9px;
     height: 500px;
-    /* border: 2px red solid; */
 }
 
 .parallax {
@@ -164,7 +159,6 @@ a {
     color: var(--white-color);
     font-size: 2rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 135px;
 }
@@ -179,7 +173,6 @@ a {
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: var(--white-color);
-    font-family: Arial, Helvetica, sans-serif;
     opacity: .9;
     transition: all 1s;
     cursor: pointer;
@@ -203,6 +196,64 @@ a {
 .card-link:hover {
     color: #e43a15;
 }
+
+
+/* Mid Section */
+.mid-section-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    height: 300px;
+    background-color: var(--grey-color);
+    padding: 30px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+}
+
+blockquote{
+    font-size: 1.5rem;
+    padding: 20px 35px;
+    line-height: 1.3;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Button Section */
+
+.bottom-section {
+    max-width: 1200px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-color);
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.blue-box {
+    width: 900px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    text-align: start;
+    background-color: var(--light-blue);
+    border-radius: 5px;
+
+}
+
+
+
+
+
 
 
 /* Mobile */
@@ -280,7 +331,7 @@ a {
     }
 
     .parallax {
-        height: 2100px;
+        height: 2400px;
     }
 
     .card {
@@ -291,6 +342,18 @@ a {
 
     .parallax-bottom-title {
         top: 1415px;
+    }
+
+    blockquote, figcaption {
+        font-size: 1.3rem;
+        line-height: 1;
+    }
+
+    .blue-box {
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        margin: 0 20px;
     }
 }
 
