@@ -256,6 +256,21 @@ figcaption {
 }
 
 
+/* Footer */
+.footer {
+    background-color: var(--black-color);
+    width: 100%;
+    min-height: 300px;
+}
+
+.footer-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    border: red 2px solid;
+    height: 300px;
+    
+}
+
 
 
 
