@@ -260,7 +260,7 @@ figcaption {
 .footer {
     background-color: var(--black-color);
     width: 100%;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .footer-wrapper {
@@ -285,11 +285,17 @@ figcaption {
 .footer-links .link-box {
     display: flex;
     flex-direction: column;
-    margin: 0 70px;
+    margin: 0 20px;
+    width: 150px;
 }
 
 .link-title {
-    color: var(--grey-color);
+    color:#a3a1a1;
+    font-weight: bold;
+}
+
+.f-link {
+    padding: 15px 0;
 }
 
 .footer-social {
