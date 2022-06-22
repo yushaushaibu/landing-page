@@ -268,7 +268,45 @@ figcaption {
     margin: 0 auto;
     border: red 2px solid;
     height: 300px;
-    
+}
+
+.footer-nav {
+    border: solid blue 2px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.footer-links {
+    border: 2px solid orange;
+    display: flex;
+}
+
+.footer-links .link-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 70px;
+}
+
+.link-title {
+    color: var(--grey-color);
+}
+
+.footer-social {
+    border: 2px solid green;
+}
+
+.footer-nav .header-logo {
+   
+}
+
+.footer-nav .header-logo img {
+    width: 200px
+
+}
+
+.box {
+    border: 2px dotted gold;
 }
 
 
