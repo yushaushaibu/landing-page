@@ -266,19 +266,19 @@ figcaption {
 .footer-wrapper {
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid;
+    border: 1px red solid;
     height: 500px;
 }
 
 .footer-nav {
-    /* border: solid blue 2px; */
+    border: solid blue 2px;
     display: flex;
     justify-content: space-between;
     margin: 50px 0;
 }
 
 .footer-links {
-    /* border: 2px solid orange; */
+    border: 2px solid orange;
     display: flex;
 }
 
@@ -302,17 +302,17 @@ figcaption {
     color: #e65245;
 }
 
-/* .footer-social {
+.footer-social {
     border: 2px solid green;
-} */
+}
 
 .footer-nav .header-logo img {
     width: 200px
 }
 
-/* .box {
+.box {
     border: 2px dotted gold;
-} */
+}
 
 .footer-social .social-links i {
     font-size: 2.5rem;
@@ -337,9 +337,6 @@ figcaption {
     height: 30vh;
     padding: 1rem;
 }
-
-
-
 
 
 /* Mobile */
@@ -445,6 +442,36 @@ figcaption {
 
     .box-info-heading, .box-info-link, .box-info-paragraph {
         margin: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        height: 1150px;
+        margin-top: 50px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+    }
+
+    .footer-wrapper {
+        max-width: 100%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+    
+    .f-link {
+        padding: 10px 0;
+    }
+
+    .footer-links .link-box {
+        margin: 20px;
+    }
+
+    .footer-social {
+        display: flex;
     }
 }
 
