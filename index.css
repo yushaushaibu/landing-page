@@ -323,6 +323,12 @@ figcaption {
     color: #e65245;
 }
 
+.copyright-info {
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
