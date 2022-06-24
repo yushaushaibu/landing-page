@@ -266,19 +266,17 @@ figcaption {
 .footer-wrapper {
     width: 1200px;
     margin: 0 auto;
-    border: 1px red solid;
+    border: 1px #000 solid;
     height: 500px;
 }
 
 .footer-nav {
-    border: solid blue 2px;
     display: flex;
     justify-content: space-between;
     margin: 50px 0;
 }
 
 .footer-links {
-    border: 2px solid orange;
     display: flex;
 }
 
@@ -302,16 +300,8 @@ figcaption {
     color: #e65245;
 }
 
-.footer-social {
-    border: 2px solid green;
-}
-
 .footer-nav .header-logo img {
     width: 200px
-}
-
-.box {
-    border: 2px dotted gold;
 }
 
 .footer-social .social-links i {
@@ -414,7 +404,7 @@ figcaption {
     }
 
     .parallax {
-        height: 2400px;
+        height: 2250px;
     }
 
     .card {
@@ -424,7 +414,7 @@ figcaption {
     }
 
     .parallax-bottom-title {
-        top: 1415px;
+        top: 1475px;
     }
 
     blockquote, figcaption {
@@ -460,6 +450,7 @@ figcaption {
 
     .footer-links {
         flex-direction: column;
+        padding: 0 10px;
     }
     
     .f-link {
@@ -472,6 +463,8 @@ figcaption {
 
     .footer-social {
         display: flex;
+        align-items: center;
+        padding: 0 10px;
     }
 }
 
