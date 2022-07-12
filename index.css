@@ -409,6 +409,7 @@ figcaption {
 
     .card {
         padding: 25px 100;
+        margin: 25px 0;
         opacity: 1;
         height: 800px;
     }
